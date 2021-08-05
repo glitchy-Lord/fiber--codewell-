@@ -1,0 +1,39 @@
+.header {
+	/* max-width: 1440px; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 500;
+
+	padding: 3rem 10rem 2rem 10rem;
+}
+
+.header p {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.header ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header ul li {
+	/* width: 15%; */
+	margin-left: 3.25rem;
+}
+
+.header ul:last-of-type {
+	font-weight: 700;
+}
+
+.signup {
+	display: inline-block;
+	background-color: var(--accent-color);
+	color: white;
+	padding: 1em 1.5em;
+
+	border-radius: 5px;
+}

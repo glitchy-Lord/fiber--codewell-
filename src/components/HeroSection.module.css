@@ -1,0 +1,92 @@
+.hero {
+	/* width: 100%; */
+	display: flex;
+	padding: 0 10rem;
+	height: 50rem;
+
+	/* margin-bottom: 10rem; */
+}
+
+.heroImg,
+.heroText {
+	width: 100%;
+}
+
+.heroText {
+	margin: auto 0;
+	font-size: 1.5rem;
+}
+
+.review {
+	font-weight: 500;
+}
+
+.review span {
+	color: rgb(255, 136, 0);
+}
+
+.heroText h1 {
+	font-size: 5rem;
+	margin-bottom: 1rem;
+}
+
+.desc {
+	color: gray;
+	margin-bottom: 1.5rem;
+}
+
+.heroText ul {
+	display: flex;
+	align-items: center;
+
+	margin-bottom: 2rem;
+}
+
+.heroText li {
+	margin-right: 4rem;
+	color: gray;
+
+	display: flex;
+	align-items: center;
+}
+
+.heroText span img {
+	width: 2rem;
+	margin-right: 0.7rem;
+}
+
+.trial {
+	display: inline-block;
+	background-color: var(--accent-color);
+	color: white;
+	padding: 1em 1.5em;
+	font-weight: 700;
+
+	border-radius: 5px;
+}
+
+.examples {
+	color: var(--accent-color);
+	font-weight: 700;
+	position: relative;
+}
+
+.examples::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: var(--accent-color);
+	bottom: -2px;
+	left: 0;
+}
+
+.heroImg {
+	height: 100%;
+}
+
+.heroImg img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
