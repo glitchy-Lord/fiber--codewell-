@@ -1,0 +1,93 @@
+.features {
+	padding: 0 10rem;
+	margin-top: 10rem;
+}
+
+.features strong {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--accent-color);
+
+	margin-bottom: 2rem;
+}
+
+.features h2 {
+	width: 50%;
+	font-size: 3rem;
+
+	margin-bottom: 1.2em;
+}
+
+.features ul {
+	display: flex;
+	justify-content: space-between;
+
+	margin-bottom: 5rem;
+}
+
+.features li {
+	display: flex;
+	flex-direction: column;
+
+	width: 25%;
+}
+
+.features li img {
+	width: 3rem;
+	margin-bottom: 1rem;
+}
+
+.features h3 {
+	font-size: 1.25rem;
+	margin-bottom: 1.5rem;
+}
+
+.features li p {
+	font-size: 1.5rem;
+	color: gray;
+}
+
+.article {
+	background-color: var(--accent-color);
+	display: flex;
+
+	height: 45rem;
+	padding: 5rem 5rem 0 5rem;
+	border-radius: 1rem;
+
+	margin-bottom: 10rem;
+}
+
+.article div {
+	margin: auto;
+	padding-right: 10rem;
+	padding-bottom: 10rem;
+}
+
+.article h2 {
+	color: white;
+	margin-bottom: 1.5rem;
+	width: 100%;
+}
+
+.article p {
+	font-size: 1.5rem;
+	color: lightgray;
+	margin-bottom: 1.5rem;
+}
+
+.article a {
+	display: inline-block;
+	padding: 1rem 2rem;
+	background-color: white;
+	color: var(--accent-color);
+	border-radius: 0.5rem;
+
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.article img {
+	/* width: 100%; */
+	height: 100%;
+}

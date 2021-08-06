@@ -1,0 +1,54 @@
+.reviews {
+	display: flex;
+	justify-content: space-between;
+
+	margin-left: 10rem;
+
+	margin-bottom: 20rem;
+}
+
+.review {
+	width: 50%;
+	border: 2px solid rgb(236, 236, 236);
+	padding: 1.5rem;
+	margin-right: 3rem;
+
+	font-size: 1.5rem;
+}
+
+.review div {
+	display: grid;
+	grid-template-columns: 1fr 10fr;
+	grid-template-rows: 1fr 1fr;
+
+	margin-bottom: 1.5rem;
+}
+
+.review div span:first-of-type {
+	color: var(--accent-color);
+	font-weight: 700;
+	margin-top: auto;
+}
+
+.review div img {
+	grid-row: 1/-1;
+	grid-column: 1/2;
+
+	margin-right: 1.5rem;
+}
+
+.review p {
+	margin-bottom: 2rem;
+}
+
+.review a {
+	color: var(--accent-color);
+	font-weight: 700;
+	text-align: center;
+
+	display: inline-block;
+	width: -webkit-fill-available;
+
+	padding: 1rem;
+	border: 2px solid rgb(236, 236, 236);
+}
