@@ -1,29 +1,38 @@
 import React from 'react';
 import classes from './Header.module.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 	return (
 		<header className={classes.header}>
-			<p>Fiber</p>
+			<Link to='/' className={classes.p}>
+				Fiber
+			</Link>
 			<ul>
 				<li>
-					<a href='#'>Community</a>
+					<Link to='/' href='#'>
+						Community
+					</Link>
 				</li>
 				<li>
-					<a href='#'>Pricing</a>
+					<Link to='/' href='#'>
+						Pricing
+					</Link>
 				</li>
 				<li>
-					<a href='#'>Features</a>
+					<Link to='/' href='#'>
+						Features
+					</Link>
 				</li>
 			</ul>
 			<ul>
 				<li>
-					<a href='#'>Sign In</a>
+					<Link to='/sign-up'>Sign In</Link>
 				</li>
 				<li>
-					<a className={classes.signup} href='#'>
+					<Link to='/sign-up' className={classes.signup}>
 						Sign Up
-					</a>
+					</Link>
 				</li>
 			</ul>
 		</header>

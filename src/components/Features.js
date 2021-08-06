@@ -4,9 +4,7 @@ import time from '../assets/time.svg';
 import code from '../assets/code.svg';
 import allSizes from '../assets/allSizes.svg';
 import pageImage from '../assets/Page Image.png';
-import mathew from '../assets/User Avatar 2.svg';
-import janice from '../assets/User Avatar 32.svg';
-import sarah from '../assets/User Avatar.svg';
+import { Link } from 'react-router-dom';
 
 import classes from './Features.module.css';
 
@@ -49,7 +47,7 @@ const Features = () => {
 						case studies for your projects. Simply follow our
 						step-by-step guide.
 					</p>
-					<a href='#'>Start Free Trial</a>
+					<Link to='/sign-up'>Start Free Trial</Link>
 				</div>
 				<img src={pageImage} alt='' />
 			</div>

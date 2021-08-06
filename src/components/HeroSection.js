@@ -2,6 +2,7 @@ import React from 'react';
 import heroImg from '../assets/hero-Illustration.png';
 import checkmark from '../assets/Checkmark.svg';
 import classes from './HeroSection.module.css';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
 	return (
@@ -19,14 +20,14 @@ const HeroSection = () => {
 				<div>
 					<ul>
 						<li>
-							<a className={classes.trial} href='#'>
+							<Link className={classes.trial} to='/sign-up'>
 								Start Free Trial
-							</a>
+							</Link>
 						</li>
 						<li>
-							<a className={classes.examples} href='#'>
+							<Link className={classes.examples} to='/sign-up'>
 								View Examples
-							</a>
+							</Link>
 						</li>
 					</ul>
 				</div>

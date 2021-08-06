@@ -5,6 +5,7 @@ import janice from '../assets/User Avatar 32.svg';
 import sarah from '../assets/User Avatar.svg';
 
 import classes from './Reviews.module.css';
+import { Link } from 'react-router-dom';
 
 const Reviews = () => {
 	return (
@@ -17,10 +18,10 @@ const Reviews = () => {
 				</div>
 				<p>
 					Setting up my portfolio with Fiber took no more than 10
-					minutes. Since they, my portfolio has attracted a lot of
+					minutes. Since they, my portfolio has attracted Link lot of
 					clients and made me more than $100k.
 				</p>
-				<a href='#'>View Sarah's Portfolio</a>
+				<Link to='/'>View Sarah's Portfolio</Link>
 			</div>
 			<div className={classes.review}>
 				<div>
@@ -33,7 +34,7 @@ const Reviews = () => {
 					premade templates, now I just need to work on my case
 					studies and I'll be ready to go!
 				</p>
-				<a href='#'>View Mathew's Portfolio</a>
+				<Link to='/'>View Mathew's Portfolio</Link>
 			</div>
 			<div className={classes.review}>
 				<div>
@@ -46,7 +47,7 @@ const Reviews = () => {
 					made more than I ever made in my full-time job. The
 					templates are just so amazing.
 				</p>
-				<a href='#'>View Mathew's Portfolio</a>
+				<Link to='/'>View Mathew's Portfolio</Link>
 			</div>
 		</section>
 	);

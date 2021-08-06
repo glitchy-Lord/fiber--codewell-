@@ -1,18 +1,20 @@
-import Features from './components/Features';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import Reviews from './components/Reviews';
+import LandingPage from './pages/LandingPage';
+
+import { Switch, Route } from 'react-router-dom';
+import Signup from './pages/Signup';
 
 function App() {
 	return (
-		<main className='App'>
-			<Header />
-			<HeroSection />
-			<Features />
-			<Reviews />
-			<Footer />
-		</main>
+		<Switch>
+			<main className='App'>
+				<Header />
+				<Route path='/' component={LandingPage} exact />
+				<Route path='/sign-up' component={Signup} />
+				<Footer />
+			</main>
+		</Switch>
 	);
 }
 
