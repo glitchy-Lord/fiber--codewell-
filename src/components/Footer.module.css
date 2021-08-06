@@ -1,0 +1,26 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5rem;
+
+	background-color: #fbf8f3;
+	padding: 5rem 10rem;
+}
+
+.footer p,
+.footer li {
+	color: gray;
+}
+
+.footer div:first-of-type {
+	width: 30%;
+}
+
+.footer h4,
+.footer li {
+	margin-bottom: 1rem;
+}
+
+.footer p {
+	margin-bottom: 2.5rem;
+}

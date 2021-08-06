@@ -1,4 +1,5 @@
 import Features from './components/Features';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import Reviews from './components/Reviews';
@@ -10,6 +11,7 @@ function App() {
 			<HeroSection />
 			<Features />
 			<Reviews />
+			<Footer />
 		</main>
 	);
 }
