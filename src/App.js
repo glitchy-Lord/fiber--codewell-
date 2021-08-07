@@ -7,14 +7,16 @@ import Signup from './pages/Signup';
 
 function App() {
 	return (
-		<Switch>
-			<main className='App'>
-				<Header />
-				<Route path='/' component={LandingPage} exact />
-				<Route path='/sign-up' component={Signup} />
-				<Footer />
-			</main>
-		</Switch>
+		<>
+			<Switch>
+				<main className='App'>
+					<Header />
+					<Route path='/' component={LandingPage} exact />
+					<Route path='/sign-up' component={Signup} />
+					<Footer />
+				</main>
+			</Switch>
+		</>
 	);
 }
 

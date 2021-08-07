@@ -35,21 +35,24 @@
 .form-control {
 	margin-bottom: 2.5rem;
 }
-
 .form input:not(input[type='checkbox']) {
 	width: 100%;
+}
+
+.form input {
 	padding: 1rem;
 	border: 2px solid rgb(236, 236, 236);
 	border-radius: 0.5rem;
+	background-color: initial;
 }
 
-.form-control:last-of-type {
+.form-control:last-of-type div {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
 }
 
-.form-control:last-of-type p {
+.form-control:last-of-type div p {
 	font-weight: 500;
 }
 
@@ -81,13 +84,24 @@
 	border-radius: 0.5rem;
 }
 
-.form p:last-of-type {
+.form .sign-in {
 	text-align: center;
 	font-weight: 500;
 }
 
 .form p:last-of-type a {
 	color: var(--accent-color);
+}
+
+.form .invalid {
+	border-width: 1.5px;
+	border-color: #b40e0e;
+	background-color: #fddddd;
+}
+
+.form .invalid-text {
+	color: #b40e0e;
+	margin-top: 0.7rem;
 }
 
 .signupImg {
