@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classes from '../components/Signup.module.css';
 import signupImg from '../assets/Sign Up Image.png';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import useInput from '../hooks/use-input';
 
 function validateName(input) {
@@ -20,6 +20,8 @@ function validatePassword(input) {
 }
 
 const Signup = () => {
+	const history = useHistory();
+
 	const {
 		input: name,
 		inputIsValid: nameIsValid,
@@ -74,6 +76,9 @@ const Signup = () => {
 		if (!formIsValid) return;
 
 		console.log(name, email, password);
+		(function () {
+			history.push('/');
+		})();
 
 		nameReset();
 		emailReset();
@@ -159,7 +164,7 @@ const Signup = () => {
 							/>
 							<label htmlFor='tos'>
 								By creating an account on Fiber, you agree to
-								the{' '}
+								the
 								<Link to='/sign-up'>Terms & Conditions</Link>.
 							</label>
 						</div>
