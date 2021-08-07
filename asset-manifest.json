@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/fiber--codewell-/static/css/main.12e35584.chunk.css",
-    "main.js": "/fiber--codewell-/static/js/main.c6167025.chunk.js",
-    "main.js.map": "/fiber--codewell-/static/js/main.c6167025.chunk.js.map",
+    "main.js": "/fiber--codewell-/static/js/main.245b2bab.chunk.js",
+    "main.js.map": "/fiber--codewell-/static/js/main.245b2bab.chunk.js.map",
     "runtime-main.js": "/fiber--codewell-/static/js/runtime-main.16cd5ecb.js",
     "runtime-main.js.map": "/fiber--codewell-/static/js/runtime-main.16cd5ecb.js.map",
-    "static/js/2.06697ae1.chunk.js": "/fiber--codewell-/static/js/2.06697ae1.chunk.js",
-    "static/js/2.06697ae1.chunk.js.map": "/fiber--codewell-/static/js/2.06697ae1.chunk.js.map",
+    "static/js/2.51afea49.chunk.js": "/fiber--codewell-/static/js/2.51afea49.chunk.js",
+    "static/js/2.51afea49.chunk.js.map": "/fiber--codewell-/static/js/2.51afea49.chunk.js.map",
     "index.html": "/fiber--codewell-/index.html",
     "static/css/main.12e35584.chunk.css.map": "/fiber--codewell-/static/css/main.12e35584.chunk.css.map",
-    "static/js/2.06697ae1.chunk.js.LICENSE.txt": "/fiber--codewell-/static/js/2.06697ae1.chunk.js.LICENSE.txt",
+    "static/js/2.51afea49.chunk.js.LICENSE.txt": "/fiber--codewell-/static/js/2.51afea49.chunk.js.LICENSE.txt",
     "static/media/Checkmark.950467d3.svg": "/fiber--codewell-/static/media/Checkmark.950467d3.svg",
     "static/media/Page Image.58001398.png": "/fiber--codewell-/static/media/Page Image.58001398.png",
     "static/media/Sign Up Image.8258e31f.png": "/fiber--codewell-/static/media/Sign Up Image.8258e31f.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.16cd5ecb.js",
-    "static/js/2.06697ae1.chunk.js",
+    "static/js/2.51afea49.chunk.js",
     "static/css/main.12e35584.chunk.css",
-    "static/js/main.c6167025.chunk.js"
+    "static/js/main.245b2bab.chunk.js"
   ]
 }
